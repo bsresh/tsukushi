@@ -1,0 +1,29 @@
+body, html{
+	min-width: 1260px;
+	font-size: 14px;
+}
+.cS-sectionHeader{
+	font-family: 'BebasNeue';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	text-transform: uppercase;
+	color: #009966;
+}
+
+
+@media screen and (min-height: 500px) and (max-height: 691px){
+	.cS-sectionHeader{
+		font-size: calc(48px - (860px - 100vh) * (48 - 40) / (860 - 500));
+	}	
+}
+
+@media screen and (min-height: 0) and (max-height: 499px){
+	.cS-sectionHeader{
+		font-size: 40px;
+	}
+}
+
+div.owl-dot{
+	/*box-sizing: border-box; border: 1px solid red;*/
+}

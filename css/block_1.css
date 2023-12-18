@@ -1,0 +1,470 @@
+
+.block_1{
+	position: relative;
+	width: 100%;
+	height: 802px;
+	min-height: calc(500px - 36px - 20px);
+	background: #64767f;
+	background: url(../img/header_background.png) 50% 80% no-repeat;
+	background-size: cover;
+}
+
+@media screen and (max-height: 874px) and (min-height: 600px){
+	.block_1{
+		height: calc(100vh - 52px - 20px);
+	}
+}
+
+@media screen and (max-height: 599px) and (min-height: 0px){
+	.block_1{
+		height: calc(100vh - 36px - 20px);
+	}
+}
+
+.block_1 .header{
+	position: relative;
+	width: 100%;
+	/*height: 318px;*/
+	height: 39.65%;
+}
+.block_1 .lang_nav{
+	display: flex;
+	justify-content: space-between;
+	margin-left: calc( (100vw - 1160px)/2);
+	width: 82.85714285714286rem;
+	height: 110px;
+	/*height: 34.59%;*/
+}
+
+
+@media screen and (max-height: 700px) and (min-height: 651px){
+	.block_1 .lang_nav{
+		height: 90px;
+	}
+}
+
+
+@media screen and (max-height: 650px) and (min-height: 0){
+	.block_1 .lang_nav{
+		height: 70px;
+	}
+}
+
+
+.block_1 .lang_select_form{
+	position: relative;
+	padding-top: 48px;
+	text-align: center;
+	width: 92px;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+.block_1 .select_lang_open{
+	position: absolute;
+	top: 48px;
+	left: 0px;
+	width: 88px;
+	height: 40px;
+	border: 1px solid white;
+	border-radius: 40px;
+	cursor: pointer;
+	/*background: url(../img/select.png) 0 0 no-repeat;*/
+	/*z-index: 100;*/
+}
+
+
+@media screen and (max-height: 700px) and (min-height: 651px){
+	.block_1 .select_lang_open{
+		top: 36px;
+	}
+}
+
+@media screen and (max-height: 650px) and (min-height: 0){
+	.block_1 .select_lang_open{
+		top: 24px;
+	}
+}
+
+
+.block_1 .flag{
+	position: absolute;
+	display: block;
+	top: 9px;
+	left: 13px;
+	width: 27px;
+}
+
+.block_1 .select_lang_open_arrow{
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	width: 11px;
+	height: 8px;
+	background: url(../img/lang_open_arrow.png) 0 0 no-repeat;
+}
+
+.block_1 .select_lang{
+	display: none;
+	position: absolute;
+	top: 95px;
+	left: -5px;
+	width: 105px;
+	/*height: 100px;*/
+	background: #64757d;
+	border: 1px solid white;
+	border-radius: 5px;
+	box-sizing: border-box;
+	z-index: 2;
+}
+
+@media screen and (max-height: 700px) and (min-height: 651px){
+	.block_1 .select_lang{
+		top: 82px;
+	}
+}
+
+@media screen and (max-height: 650px) and (min-height: 0){
+	.block_1 .select_lang{
+		top: 70px;
+	}
+}
+
+.block_1 .select_lang .select_lang_item{
+	display: block;
+	font-family: circe, sans-serif;
+	font-size: 20px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.block_1 .select_lang .select_lang_item:hover{
+	font-weight: bold;
+	color: #0044ff;
+	/*text-decoration: underline;*/
+}
+
+.block_1 nav.menu{
+	display: flex;
+	margin-top: 65px;
+	/*margin-left: 7rem;*/
+	align-self: baseline;
+	/*width: 970px;*/
+	/*height: 20px;*/
+}
+
+
+@media screen and (max-height: 700px) and (min-height: 651px){
+	.block_1 nav.menu{	
+		margin-top: 49px;
+	}	
+}
+
+@media screen and (max-height: 650px) and (min-height: 0){
+	.block_1 nav.menu{	
+		margin-top: 33px;
+	}	
+}
+
+.block_1 nav.menu a{
+	margin-left: 4.5rem;
+	font-family: circe, sans-serif;
+	/*font-size: 14px;*/
+	font-size: 1rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+}
+.block_1 nav.menu a:first-child{
+	margin-left: 0;
+}
+
+@media screen and (max-width: 1700px) and (min-width: 1550px){
+	body, html{
+		font-size: 13px;
+	}
+}
+
+@media screen and (max-width: 1549px) and (min-width: 1500px){
+	body, html{
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 1499px) and (min-width: 1380px){
+	body, html{
+		font-size: 12px;
+	}
+}
+
+
+@media screen and (max-width: 1379px) and (min-width: 1260px){
+	body, html{
+		font-size: 12px;
+	}
+	.block_1 .lang_nav{
+		justify-content: flex-start;
+		
+	}
+
+	.block_1 nav.menu{
+	margin-left: 50px;
+	}
+}
+
+.block_1 .header_contacts{
+	position: absolute;
+	top: 0;
+	right: 2.14rem;
+	width: 175px;
+	height: 110px;
+	/*height: 34.59%;*/
+	padding-top: 43px;
+	font-family: circe, sans-serif;
+	font-size: 14px;
+	color: #fff;
+	box-sizing: border-box;
+}
+
+@media screen and (max-height: 700px) and (min-height: 651px){
+	.block_1 .header_contacts{
+		padding-top: 33px;
+		height: 28px;
+	}
+}
+
+@media screen and (max-height: 650px) and (min-height: 0){
+	.block_1 .header_contacts{
+		padding-top: 22px;
+		height: 55px;
+	}
+}
+
+@media screen and (max-width: 1259px) and (min-width: 0){
+	
+	body, html{
+		font-size: 12px;
+	}
+
+	.block_1 .lang_nav{
+		justify-content: flex-start;
+		margin-left: 50px;		
+	}
+
+	.block_1 nav.menu{
+	margin-left: 50px;
+	}
+
+}
+
+
+.block_1 .header_contacts p{
+	margin: 0;
+	padding: 0
+	line-height: 30px;
+}
+.block_1 .header_contacts_tel{
+	font-family: circe, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #fff;
+}
+.block_1 .header_contacts a{
+	color: #fff;
+}
+.block_1 .holidays_in_Siberia{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	/*height: 208px;	*/
+	/*height: 65.41%;*/
+	height: calc(100% - 110px);
+	box-sizing: border-box;
+}
+
+@media screen and (max-height: 700px) and (min-height: 651px){
+	.block_1 .holidays_in_Siberia{
+		height: calc(100% - 95px);
+	}
+}
+
+@media screen and (max-height: 650px) and (min-height: 0){
+	.block_1 .holidays_in_Siberia{
+		height: calc(100% - 70px);
+	}
+}
+
+
+.block_1 .holidays_in_Siberia .logo_text{
+	width: 410px;
+	/*height: 208px;*/
+	height: 100%;
+}
+.block_1 .holidays_in_Siberia .logo_text .logo{
+	margin: auto;
+	width: 140px;
+	/*height: 92px;*/
+	height: 50.25%;
+	background: url(../img/forest.png) 50% 50% no-repeat;	
+	background-size: contain;
+}
+.block_1 .holidays_in_Siberia .logo_text .text{
+	margin: 0;
+	margin-top: 4px;
+	text-align: center;
+	width: 100%;
+	/*height: 68px;*/
+	height: 47.83%;
+	font-family: BebasNeue;
+	font-size: 60px;
+	font-weight: bold;
+	font-style: normal;
+	box-sizing: border-box;
+	color: #fff;
+}
+
+
+@media screen and (max-height: 700px) and (min-height: 651px){
+	.block_1 .holidays_in_Siberia .logo_text .text{
+		font-size: 55px;
+	}	
+}
+
+@media screen and (max-height: 650px) and (min-height: 0px){
+	.block_1 .holidays_in_Siberia .logo_text .text{
+		font-size: 50px;
+	}	
+}
+
+
+
+.block_1 .left_line{
+	width: calc((100vw - 410px - 80px - 80px)/2);
+	height: 50px;
+	border-bottom: 2px solid #fff;
+	box-sizing: border-box;
+	/*background: red;*/
+}
+.block_1 .right_line{
+	width: calc((100vw - 410px - 80px - 80px)/2);
+	height: 50px;
+	border-bottom: 2px solid #fff;
+	box-sizing: border-box;
+	/*background: red;*/
+}
+.block_1 .block1_img_text{
+	position: relative;
+	margin: auto;
+	width: 1160px;
+	/*height: 484px;*/
+	height: 60.35%;
+}
+
+/*@media screen and (max-height: 874px) and (min-height: 0){
+	.block_1 .block1_img_text{
+		height: 60.35%;
+	}
+}*/
+
+.block_1 .block1_img_text .block1_img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 468px;
+	/*height: 536px;*/
+	height: 110.29%;
+	background: url(../img/church.png) 50% 50% no-repeat;
+	background-size: contain;
+}
+
+.block_1 .block1_img_text .block1_text{
+	position: absolute;
+	top: 0;
+	right: 0;
+	box-sizing: border-box;
+	padding-top: 80px;
+	width: 580px;
+	height: 100%;
+	font-family: circe, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 18px;
+	color: #fff;
+}
+
+@media screen and (max-height: 800px) and (min-height: 0){
+	.block_1 .block1_img_text .block1_text{
+		display: flex;
+		padding-top: 0px;
+		flex-direction: column;
+		justify-content: center;
+	}
+}
+
+.block_1 .block1_img_text .block1_text p:first-child{
+	/*margin-top: calc(17.09% - 18px);*/
+}
+
+.block_1 .block1_img_text .block1_text p{
+	margin: 18px 0;
+}
+
+@media screen and (max-height: 800px) and (min-height: 0){
+	.block_1 .block1_img_text .block1_text p{
+		margin: 9px 0;
+	}	
+}
+
+.block_1 .social_icons{
+	position: absolute;
+	/*top: 409px;*/
+	top: 51%;
+	left: 34px;
+	width: 40px;
+	/*box-sizing: border-box; border: 1px solid red;*/
+}
+
+@media screen and (max-height: 874px) and (min-height: 0){
+	.block_1 .social_icons{
+		/*top: 409px;*/
+		/*top: 51%;*/
+	}
+
+}
+
+@media screen and (min-width: 0) and (max-width: 1290px){
+	.block_1 .social_icons{
+		left: 5px;
+	}	
+}
+
+@media screen and (min-width: 1291px) and (max-width: 1320px){
+	.block_1 .social_icons{
+		left: 17px;
+	}	
+}
+
+
+.block_1 .icon{
+	display: block;
+	width: 40px;
+	height: 30px;
+}
+
+.block_1 .facebook{
+	background: url(../img/social_icons.png) 0 -8px no-repeat;
+}
+
+.block_1 .twitter{
+	margin-top: 38px;
+	background: url(../img/social_icons.png) 0 -76px no-repeat;
+}
+
+.block_1 .instagram{
+	margin-top: 36px;
+	background: url(../img/social_icons.png) 0 -142px no-repeat;
+}
+

@@ -1,0 +1,58 @@
+.footer{
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	padding: 60px 50px 0 50px;
+	box-sizing: border-box;
+	width: 1260px;
+	height: 152px;
+
+}
+.footer .copyright{
+	font-family: 'circe';
+	font-weight: bold;
+	font-style: normal;
+	font-size: 12px;
+	line-height: 24px;
+	color: #666666;
+}
+.footer .terms_of_use{
+	display: block;
+	height: 10px;
+	font-family: 'circe';
+	font-weight: bold;
+	font-style: normal;
+	font-size: 12px;
+	line-height: 24px;
+	color: #009966;
+	text-decoration: none;
+}
+.footer .footer_cocial_icons{
+	display: inline-block;
+	height: 20px;
+	letter-spacing: -4px;
+}
+
+.footer .footer_cocial_icons .icon{
+	display: inline-block;
+	margin-left: 20px;
+	width: 20px;
+	height: 20px;
+}
+.footer .footer_cocial_icons .icon:first-child{
+	margin-left: 0;
+}
+
+.footer .footer_cocial_icons .facebook{
+	background: url(../img/footer_social_icons.png) -1px -5px no-repeat;
+}
+
+.footer .footer_cocial_icons .twitter{
+	width: 20px;
+	height: 20px;
+	background: url(../img/footer_social_icons.png) -40px -5px no-repeat;	
+}
+
+.footer .footer_cocial_icons .instagram{
+	background: url(../img/footer_social_icons.png) -76px -6px no-repeat;		
+}

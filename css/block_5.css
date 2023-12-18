@@ -1,0 +1,175 @@
+.block_5{
+	width: 100%;
+	/*height: 667px;*/
+	border-top: 1px solid #c2c2c2;
+	
+}
+.block_5 .background{
+	width: 100%;
+	/*min-height: 367px;*/
+	background: #e5f5ef;
+}
+
+.block_5 .background .center_box{
+	margin: auto;
+	padding-top: 126px;
+	box-sizing: border-box;
+	width: 693px;
+	height: 100%;
+}
+
+@media screen and (min-height: 500px) and (max-height: 860px){
+	.block_5 .background .center_box{
+		padding-top: calc(126px - (860px - 100vh) * (126 - 20) / (860 - 500));
+	}	
+}
+
+@media screen and (min-height: 0) and (max-height: 499px){
+	.block_5 .background .center_box{
+		padding-top: 20px;
+	}
+}
+
+.block_5 .background .section_header{
+	margin: auto;
+	text-align: center;
+	line-height: 1.15em;
+}
+
+@media screen and (min-height: 500px) and (max-height: 860px){
+	.block_5 .background .section_header{
+		line-height: calc( 1.15em - (860px - 100vh) * (1.15em - 0.8em) / (860 - 500) );;
+	}
+}
+
+@media screen and (min-height: 0) and (max-height: 499px){
+	.block_5 .background .section_header{
+		line-height: 0.8em;
+	}
+}
+
+.block_5 .background  .contacts_box{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 23px;
+	/*padding-left: 33px;*/
+	/*padding-right: 33px;*/
+	box-sizing: border-box;
+	width: 100%;
+	/*min-height: 124px;*/
+	/*min-height: 163px;*/
+	padding-bottom: 37px;
+	box-sizing: border-box;
+	
+}
+
+@media screen and (min-height: 500px) and (max-height: 860px){
+	.block_5 .background  .contacts_box{
+		margin-top: calc(23px - (860px - 100vh) * (23 - 5) / (860 - 500));
+		padding-bottom: calc(37px - (860px - 100vh) * (37 - 5) / (860 - 500));
+	}	
+}
+
+@media screen and (min-height: 0) and (max-height: 499px){
+	.block_5 .background  .contacts_box{
+		margin-top: 5px;
+		padding-bottom: 5px;
+	}
+}
+
+.block_5 .background  .contacts_box .contact{
+	display: block;
+	width: 215px;
+	/*min-height: 124px;*/
+	padding-top: 28px;	
+	box-sizing: border-box;
+	/*background: #b9e4d4;*/
+	
+}
+
+@media screen and (min-height: 500px) and (max-height: 860px){
+	.block_5 .background  .contacts_box .contact{
+		padding-top: calc(28px - (860px - 100vh) * (28 - 5) / (860 - 500));
+	}	
+}
+
+@media screen and (min-height: 0) and (max-height: 499px){
+	.block_5 .background  .contacts_box .contact{
+		padding-top: 5px;	
+	}
+}
+
+.block_5 .background  .contacts_box .icon{
+	margin: auto;
+	margin-bottom: 27px;
+	height: 34px;
+	width: 44px;
+}
+
+@media screen and (min-height: 500px) and (max-height: 860px){
+	.block_5 .background  .contacts_box .icon{
+		margin-bottom: calc(27px - (860px - 100vh) * (27 - 5) / (860 - 500));
+		height: calc(34px - (860px - 100vh) * (34 - 34/1.5) / (860 - 500) );
+		width: calc(44px - (860px - 100vh) * (44 - 44/1.5) / (860 - 500) );
+	}	
+}
+
+@media screen and (min-height: 0) and (max-height: 499px){
+	.block_5 .background  .contacts_box .icon{
+		margin-bottom: 5px;
+		height: calc(34px/1.5);
+		width: calc(44px/1.5);
+	}
+}
+
+.block_5 .background  .contacts_box .contact .icon_tel{
+	/*background: url(../img/contacts_icons.png) -10px -4px no-repeat;*/
+	background: url(../img/contacts_icon_tel.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+
+
+.block_5 .background  .contacts_box .contact .icon_email{
+	/*background: url(../img/contacts_icons.png) -210px -4px no-repeat;*/
+	background: url(../img/contacts_icon_email.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	/*text-align: center;
+	font-size: 45px;
+	line-height: 32px;
+	color: #959595;*/
+}
+
+
+.block_5 .background  .contacts_box .contact .icon_address{
+	/*background: url(../img/contacts_icons.png) -410px -4px no-repeat;	*/
+	background: url(../img/contacts_icon_location.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+
+.block_5 .background  .contacts_box .contact .contact_text{
+	display: block;
+	font-family: 'circe';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 24px;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	word-break: break-all;
+}
+
+@media screen and (min-height: 500px) and (max-height: 860px){
+	.block_5 .background  .contacts_box .contact .contact_text{
+		font-size: calc( 18px - (860px - 100vh) * (18 - 14) / (860 - 500) );
+		line-height: calc( 24px - (860px - 100vh) * (24 - 18) / (860 - 500) );
+	}
+}
+
+@media screen and (min-height: 0px) and (max-height: 499px){
+	.block_5 .background  .contacts_box .contact .contact_text{
+		font-size: 14px;
+		line-height: 18px;
+	}
+}
+

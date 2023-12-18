@@ -1,0 +1,273 @@
+body, html{
+	min-width: 1260px;
+	font-size: 14px;
+}
+.block_1{
+	/*position: relative;*/
+	width: 100%;
+	height: 802px;
+	outline: 1px solid red;
+	background: #64767f;
+	background: url(../img/header_background.png) 50% 80% no-repeat;
+	background-size: cover;
+}
+.header{
+	position: relative;
+	width: 100%;
+	height: 318px;
+	outline: 1px solid red;
+}
+.lang_nav{
+	display: flex;
+	justify-content: space-between;
+	margin-left: calc( (100vw - 1160px)/2);
+	width: 82.85714285714286rem;
+	height: 110px;
+	outline: 1px solid magenta;
+}
+
+
+.lang_select_form{
+	padding-top: 48px;
+	text-align: center;
+	width: 92px;
+	height: 100%;
+	box-sizing: border-box;
+	outline: 1px solid red;
+}
+.lang_select_form .lang_select{
+	width: 88px;
+	height: 40px;
+	/*outline: 1px solid red;*/
+	border-radius: 40px;
+	font-size: 14px;
+}
+
+.lang_select_form .lang_select option{
+	
+}
+
+nav.menu{
+	display: flex;
+	margin-top: 65px;
+	/*margin-left: 7rem;*/
+	align-self: baseline;
+	/*width: 970px;*/
+	/*height: 20px;*/
+	outline: 1px solid red;
+}
+nav.menu a{
+	margin-left: 4.5rem;
+	font-family: circe, sans-serif;
+	/*font-size: 14px;*/
+	font-size: 1rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+}
+nav.menu a:first-child{
+	margin-left: 0;
+}
+
+@media screen and (max-width: 1700px) and (min-width: 1550px){
+	body, html{
+		font-size: 13px;
+	}
+}
+
+@media screen and (max-width: 1549px) and (min-width: 1500px){
+	body, html{
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 1499px) and (min-width: 1380px){
+	body, html{
+		font-size: 12px;
+	}
+	/*.lang_nav{
+		justify-content: flex-start;
+		
+	}*/
+
+	/*nav.menu{
+	margin-left: 30px;
+	}*/
+}
+
+
+@media screen and (max-width: 1379px) and (min-width: 1260px){
+	body, html{
+		font-size: 12px;
+	}
+	.lang_nav{
+		justify-content: flex-start;
+		
+	}
+
+	nav.menu{
+	margin-left: 50px;
+	}
+}
+
+.header_contacts{
+	position: absolute;
+	top: 0;
+	right: 2.14rem;
+	width: 175px;
+	height: 110px;
+	padding-top: 43px;
+	font-family: circe, sans-serif;
+	font-size: 14px;
+	color: #fff;
+	box-sizing: border-box;
+	outline: 1px solid red;
+}
+
+@media screen and (max-width: 1259px) and (min-width: 0){
+	
+	body, html{
+		font-size: 12px;
+	}
+
+	.lang_nav{
+		justify-content: flex-start;
+		margin-left: 50px;		
+	}
+
+	nav.menu{
+	margin-left: 50px;
+	}
+
+	/*.header_contacts{
+		position: absolute;
+		right: calc(-100vw + 30px);
+	}*/
+}
+
+
+.header_contacts p{
+	margin: 0;
+	padding: 0
+	line-height: 30px;
+}
+.header_contacts_tel{
+	font-family: circe, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #fff;
+}
+.header_contacts a{
+	color: #fff;
+}
+.holidays_in_Siberia{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 208px;
+	outline: 1px solid red;
+}
+.holidays_in_Siberia .logo_text{
+	width: 410px;
+	height: 208px;
+	outline: 1px solid red;
+}
+.holidays_in_Siberia .logo_text .logo{
+	margin: auto;
+	width: 140px;
+	height: 92px;
+	background: url(../img/forest.png) 0 0 no-repeat;	
+}
+.holidays_in_Siberia .logo_text .text{
+	margin-top: 4px;
+	width: 100%;
+	height: 68px;
+	font-family: BebasNeue;
+	font-size: 60px;
+	font-weight: bold;
+	font-style: normal;
+	/*outline: 1px solid red;*/
+	color: #fff;
+}
+
+.left_line{
+	width: calc((100vw - 410px - 80px - 80px)/2);
+	height: 1px;
+	border: 1px solid #fff;
+	box-sizing: border-box;
+}
+.right_line{
+	width: calc((100vw - 410px - 80px - 80px)/2);
+	height: 1px;
+	border: 1px solid #fff;
+	box-sizing: border-box;
+}
+.block1_img_text{
+	position: relative;
+	margin: auto;
+	width: 1160px;
+	height: 484px;
+	outline: 1px solid red;
+}
+.block1_img_text .block1_img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 468px;
+	height: 536px;
+	background: url(../img/church.png) 0 0 no-repeat;
+
+}
+.block1_img_text .block1_text{
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding-top: 80px;
+	box-sizing: border-box;
+	width: 580px;
+	height: 100%;
+	outline: 1px solid red;
+	/*background: orange;*/
+	font-family: circe, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 18px;
+	color: #fff;
+}
+.block1_img_text .block1_text p{
+	margin: 18px 0;
+}
+
+.block_1 .social_icons{
+	position: absolute;
+	top: 409px;
+	left: 34px;
+	width: 40px;
+	/*height: 100px;*/
+	/*box-sizing: border-box; border: 1px solid red;*/
+}
+
+.block_1 .icon{
+	display: block;
+	width: 40px;
+	height: 30px;
+}
+
+.block_1 .facebook{
+	background: url(../img/social_icons.png) 0 -8px no-repeat;
+}
+
+.block_1 .twitter{
+	margin-top: 38px;
+	background: url(../img/social_icons.png) 0 -76px no-repeat;
+}
+
+.block_1 .instagram{
+	margin-top: 36px;
+	background: url(../img/social_icons.png) 0 -142px no-repeat;
+}
+
+

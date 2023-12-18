@@ -1,0 +1,229 @@
+.block_4{
+	width: 100%;
+	/*height: 1046px;*/
+	padding-top: 42px;
+	box-sizing: border-box;
+	/*outline: 1px solid red;*/
+}
+
+.block_4 .section_header{
+	margin: 0;
+	text-align: center;
+}
+
+.block_4 .section_text{
+	margin: 0;
+	font-family: 'circe';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 21px;
+	color: #666666;
+	text-align: center;
+}
+
+.block_4 .price_block{
+	margin-top: 30px;
+	width: 100%;
+	background: #e5f5ef;
+	padding-bottom: 134px;
+}
+
+
+@media screen and (min-height: 600px)and (max-height: 850px){
+	.block_4 .price_block{
+		padding-bottom: calc(134px - (850px - 100vh) * (134 - 50) / (850 - 600));
+	}
+}
+
+@media screen and (min-height: 0) and (max-height: 599px){
+	.block_4 .price_block{
+		padding-bottom: 50px;
+	}
+}
+
+
+.block_4 .table_price{
+	width: 100%;
+}
+.block_4 .table_price_headers{
+	/*height: 115px;*/
+	/*height: 10px;*/
+	font-family: 'BebasNeue';
+	font-weight: normal;
+	font-style: normal;
+	/*font-size: 24px;*/
+	line-height: 4.73;
+	color: black;
+}
+
+.block_4 .table_price_towns{
+	font-family: 'circe';
+	font-weight: normal;
+	font-style: normal;
+	/*font-size: 24px;*/
+	line-height: 1.85;
+	color: black;
+}
+
+
+.block_4 .table_price .th_1{
+	text-align: left;
+	padding-left: 127px;
+}
+
+.block_4 .table_price .tr{
+	/*height: 46px;*/
+	/*height: auto;*/
+}
+
+.block_4 .table_price img{
+	width: 1.54em;
+}
+
+.block_4 .table_price .td_0{
+	/*width: 437px;*/
+	/*width: 22.76%;*/
+	max-width: 437px;
+}
+
+.block_4 .table_price .td_1{
+	width: 552px;
+}
+
+.block_4 .table_price .td_2{
+	width: 125px;
+	padding-left: 50px;
+	box-sizing: border-box;
+}
+
+.block_4 .table_price .td_3{
+	width: 105px;
+	padding-left: 30px;
+	box-sizing: border-box;
+}
+
+.block_4 .table_price .td_4{
+	width: 125px;
+	padding-left: 40px;
+	box-sizing: border-box;
+}
+
+.block_4 .table_price .td_5{
+	/*width: 577px;*/
+	/*width: 30.05%;*/
+	/*width: auto;*/
+	max-width: 577px;
+}
+
+
+.block_4 .table_price tr:first-child th:nth-child(odd){
+	background: #ceece1;
+}
+
+.block_4 .table_price tr:first-child th:nth-child(even){
+	background: #e5f5ef;
+}
+
+.block_4 .table_price tr:first-child th:first-child{
+	background: #e5f5ef;
+}
+
+.block_4 .table_price tr:nth-child(even) td:nth-child(even){
+	background: #ceece1;
+}
+
+.block_4 .table_price tr:nth-child(even) td:nth-child(odd){
+	background: #b9e4d4;
+}
+
+.block_4 .table_price tr:nth-child(even) td:first-child{
+	background: #ceece1;
+}
+
+
+
+
+
+.block_4 .table_price tr:nth-child(odd) td:nth-child(even){
+	background: #e5f5ef;
+}
+
+.block_4 .table_price tr:nth-child(odd) td:nth-child(odd){
+	background: #ceece1;
+}
+
+.block_4 .table_price tr:nth-child(odd) td:first-child{
+	background: #e5f5ef;
+}
+
+.block_4 .table_price .td_service_name{
+	padding-top: 1.05em;
+	padding-bottom: 1.05em;
+}
+
+.block_4 .table_price .td_service_name p{
+	/*position: relative;
+	top: -3px;*/
+	margin: 0;
+	font-family: 'circe';
+	font-weight: normal;
+	font-style: normal;
+	line-height: 1.5;
+	color: #999999;
+	/*outline: 1px solid red;*/
+}
+
+.block_4 .table_price .td_service_name p:first-child{
+	/*margin-top: 10px;*/
+}
+
+
+.block_4 .table_price .td_service_price{
+	padding-top: 1.05em;
+	padding-bottom: 1.05em;
+}
+
+.block_4 .table_price .td_service_price p{
+	margin: 0;
+	text-align: center;
+	font-family: 'circe';
+	font-weight: bold;
+	font-style: normal;
+	line-height: 1.5;
+	color: #000000;
+	/*outline: 1px solid red;*/
+}
+
+.block_4 .table_price .td_service_price p:first-child{
+	/*margin-top: 10px;*/
+}
+
+
+.block_4 .table_price .tr_service{
+	/*height: 122px;*/
+}
+
+
+
+.block_4 .table_price .font_size{
+	font-size: 24px;
+}
+
+@media screen and (min-height: 600px)and (max-height: 850px){
+	.block_4 .table_price .font_size{
+		font-size: calc(24px - (850px - 100vh) * (24 - 15) / (850 - 600));
+	}
+	.block_4 .table_price_headers{
+		letter-spacing: 1px;
+	}
+}
+
+@media screen and (min-height: 0) and (max-height: 599px){
+	.block_4 .table_price .font_size{
+		font-size: 15px;
+	}
+	.block_4 .table_price_headers{
+		letter-spacing: 1px;
+	}
+}
